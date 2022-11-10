@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>Memory Game</title>
+    <style>
+        body {
+            padding: 0;
+            margin: 0;
+        }
+        canvas {
+            width: 100%;
+            /* игра по ширине экрана */
+        }
+        @font-face{
+            font-family: 'BasculaCollege';
+            src: url('assets/fonts/BasculaCollege.ttf');
+        }
+        .fontPreload{
+            font-family: 'BasculaCollege';
+            position: absolute;
+            left: -100px;
+        }
+    </style>
+</head>
+<body>
+    <div class="fontPreload">.</div>
+  
+    <script src="assets/scripts/phaser.js"></script>
+    <script src="assets/scripts/Card.js"></script>
+    <script src="assets/scripts/GameScene.js"></script>
+    <script src="assets/scripts/main.js"></script>
+</body>
+</html>
